@@ -1,0 +1,24 @@
+{
+  "name": "SillyTests",
+  "version": "1.0.0",
+  "description": "A website where people can create and take personality tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "dev": "MONGO_URL=mongodb://localhost/sillyTest PORT=3001 nodemon server/index.js"
+  },
+  "keywords": [
+    "hapi",
+    "mongo",
+    "angular"
+  ],
+  "author": "Todd Kronenberg <toddkronenberg@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "good": "^5.1.2",
+    "good-console": "^4.1.0",
+    "hapi": "^8.2.0",
+    "mongoose": "^3.8.24"
+  }
+}
